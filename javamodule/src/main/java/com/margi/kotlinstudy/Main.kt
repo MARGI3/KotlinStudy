@@ -1,6 +1,7 @@
 package com.margi.kotlinstudy
 
 import com.margi.kotlinstudy.clazz.ConstructorT
+import com.margi.kotlinstudy.clazz.SubClass2
 import com.margi.kotlinstudy.controlflow.ControlFlow
 
 /**
@@ -15,6 +16,8 @@ object Main {
 //        val flow = ControlFlow()
 //        flow.fun4()
 
-        val constructorT = ConstructorT("def", 2)
+//        val constructorT = ConstructorT("def", 2)
+
+        val subClass2 = SubClass2("abc", "haha")
     }
 }
