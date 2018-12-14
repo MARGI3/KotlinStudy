@@ -20,6 +20,7 @@ object PropertiesTT1 {
 }
 
 class PropertiesTT {
+
     private companion object {
         const val CONST_VALUE_2: Int = 2
 
@@ -47,5 +48,22 @@ class PropertiesTT {
 //    lateinit var laterVar: Int
 
     lateinit var lateVar: String
+
+    lateinit var subArray: Array<Int>
+
+    fun setUp() {
+        subArray = arrayOf(1, 2, 3)
+    }
+
+    fun test() {
+        println("${subArray[1]}")
+    }
+
+    /**
+     * 1. 该修饰符只能⽤于在类体中的属性（不是在主构造函数中声明的 var 属性，并且仅当该属性没有⾃定义 getter 或 setter 时）
+     * 2. ⾃ Kotlin 1.2 起，也⽤于顶层属性与局部变量
+     * 3. 该属性或变量必须为⾮空类型，并且不能是原⽣类型
+     */
+
 
 }
