@@ -22,7 +22,7 @@ class CollectionT {
 
     //sequence 的 懒处理
     //在调用 toList (terminal operation) 之前 并不会触发 map  filter （intermediate operation） 操作
-    //terminal operation 指得到最后结果的一次操作
+    //terminal operation 指 得到最后结果的一次操作
     fun sequenceChain() {
         println("sequence chain invoke")
         listOf(1, 2, 3, 4, 5).asSequence()
@@ -60,6 +60,15 @@ class CollectionT {
      * sequence 的 map filter 执行顺序
      * map(1) filter(1)  map(2) filter(2) map(3) filter(3) ...
      */
+
+    /**
+     * list 可以转为 sequence, 也可以通过 generateSequence 方法来创建
+     */
+    fun createSequence() {
+        val naturalNumbers = generateSequence(0) { it + 1 }
+        val numbersTo100 = naturalNumbers.takeWhile { it <= 100 }
+        println(numbersTo100.sum())
+    }
 
 
 }
