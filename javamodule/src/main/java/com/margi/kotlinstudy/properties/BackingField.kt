@@ -1,10 +1,6 @@
 package com.margi.kotlinstudy.properties
 
 /**
- * author : maji
- * date   : 18/12/13
- * mail   : maji@bilibili.com
- *
  * reference: https://www.itcodemonkey.com/article/8849.html
  */
 class BackingField {

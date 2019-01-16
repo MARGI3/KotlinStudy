@@ -1,12 +1,6 @@
 package com.margi.kotlinstudy.properties
 
 /**
- * author : maji
- * date   : 18/12/13
- * mail   : maji@bilibili.com
- */
-
-/**
  *
  * 幕后属性
  *

@@ -1,10 +1,5 @@
 package com.margi.kotlinstudy.interfacet
 
-/**
- * author : maji
- * date   : 18/12/14
- * mail   : maji@bilibili.com
- */
 interface MyInterface {
     fun bar()
     fun foo() {

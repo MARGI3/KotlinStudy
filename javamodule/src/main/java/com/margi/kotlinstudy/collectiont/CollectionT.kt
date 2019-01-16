@@ -1,10 +1,6 @@
 package com.margi.kotlinstudy.collectiont
 
-/**
- * author : maji
- * date   : 19/1/11
- * mail   : maji@bilibili.com
- */
+
 class CollectionT {
 
     //collection map filter 会生成中间临时 list 来对应map 和 filter

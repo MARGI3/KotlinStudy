@@ -1,10 +1,5 @@
 package com.margi.kotlinstudy.controlflow
 
-/**
- * author : maji
- * date   : 18/12/10
- * mail   : maji@bilibili.com
- */
 class ControlFlow {
 
     fun fun1(a: Int, b: Int) {

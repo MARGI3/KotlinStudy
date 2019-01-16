@@ -1,12 +1,6 @@
 package com.margi.kotlinstudy.properties
 
 /**
- * author : maji
- * date   : 18/12/13
- * mail   : maji@bilibili.com
- */
-
-/**
  * 编译期常量 可以使用 const 修饰符标记，这些属性必须满足以下要求
  *
  * 1. 位于顶层 或者是 object声明 或 companion object 的一个成员

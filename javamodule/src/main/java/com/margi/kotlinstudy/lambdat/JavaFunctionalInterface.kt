@@ -1,10 +1,5 @@
 package com.margi.kotlinstudy.lambdat
 
-/**
- * author : maji
- * date   : 19/1/14
- * mail   : maji@bilibili.com
- */
 class JavaFunctionalInterface {
 
     @Suppress("ObjectLiteralToLambda")

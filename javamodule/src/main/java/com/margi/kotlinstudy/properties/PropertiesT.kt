@@ -3,12 +3,6 @@ package com.margi.kotlinstudy.properties
 import org.jetbrains.annotations.Nullable
 
 /**
- * author : maji
- * date   : 18/12/13
- * mail   : maji@bilibili.com
- */
-
-/**
  * 属性
  */
 class Address {

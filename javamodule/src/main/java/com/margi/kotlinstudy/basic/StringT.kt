@@ -1,10 +1,5 @@
 package com.margi.kotlinstudy.basic
 
-/**
- * author : maji
- * date   : 18/12/10
- * mail   : maji@bilibili.com
- */
 class StringT {
 
     fun fun1() {

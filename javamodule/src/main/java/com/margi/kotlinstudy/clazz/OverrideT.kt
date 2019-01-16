@@ -1,12 +1,5 @@
 package com.margi.kotlinstudy.clazz
 
-/**
- * author : maji
- * date   : 18/12/11
- * mail   : maji@bilibili.com
- */
-
-
 open class BaseClass {
     open fun fun1() {}
     fun fun2() {}

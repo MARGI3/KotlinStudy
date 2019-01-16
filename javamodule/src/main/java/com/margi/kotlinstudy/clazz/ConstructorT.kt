@@ -1,12 +1,6 @@
 package com.margi.kotlinstudy.clazz
 
 /**
- * author : maji
- * date   : 18/12/11
- * mail   : maji@bilibili.com
- */
-
-/**
  *
  * 1. 类的声明
  *

@@ -1,12 +1,6 @@
 package com.margi.kotlinstudy.clazz
 
 /**
- * author : maji
- * date   : 18/12/11
- * mail   : maji@bilibili.com
- */
-
-/**
  * 在 Kotlin 中所有类都有⼀个共同的超类 Any ，这对于没有超类型声明的类是默认超类
  */
 class Example {} // 从 Any 隐式继承

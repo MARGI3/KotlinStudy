@@ -6,11 +6,7 @@ import com.margi.kotlinstudy.collectiont.CollectionT
 import com.margi.kotlinstudy.controlflow.ControlFlow
 import com.margi.kotlinstudy.lambdat.JavaFunctionalInterface
 
-/**
- * author : maji
- * date   : 18/12/11
- * mail   : maji@bilibili.com
- */
+
 object Main {
 
     @JvmStatic
